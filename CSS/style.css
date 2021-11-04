@@ -45,6 +45,21 @@ body {
 	position: relative;
 }
 
+.design img {
+	position: absolute;
+}
+
+.design .upper {
+	top: -500px;
+	left: 30px;
+}
+
+.design .lower {
+	width: 45%;
+	right: 30px;
+	bottom: 0px;
+}
+
 .card {
 	width: 350px;
 	text-align: center;
@@ -120,17 +135,4 @@ body {
 	line-height: 2;
 }
 
-.design img {
-	position: absolute;
-	/* width: 800px; */
-}
 
-.design .upper {
-	top: -500px;
-	left: 30px;
-}
-
-.design .lower {
-	bottom: -500px;
-	right: 20px;
-}
